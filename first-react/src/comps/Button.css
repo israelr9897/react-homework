@@ -1,0 +1,20 @@
+button {
+    border-radius: 15px;
+    height: 30px;
+}
+
+.butoon-blue {
+    background-color: rgb(33, 107, 255);
+}
+
+.butoon-green {
+    background-color: rgb(41, 219, 41);
+}
+
+.butoon-blue:hover {
+    background-color: rgba(33, 107, 255, 0.601);
+}
+
+.butoon-green:hover {
+    background-color: rgba(41, 219, 41, 0.571);
+}
