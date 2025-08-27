@@ -1,0 +1,26 @@
+button {
+    width: 60px;
+    margin: 5px;
+    background-color: rgb(161, 255, 255)
+}
+button:hover {
+    background-color: aqua;
+}
+
+.reaset {
+    width: 90px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.random {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(136, 255, 0);
+}
+.reaset:hover {
+    background-color: rgb(106, 0, 255);
+}
+.random:hover {
+    background-color: rgb(221, 255, 0);
+}
