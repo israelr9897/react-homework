@@ -1,0 +1,25 @@
+#continer{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(43, 223, 226);
+}
+
+.btnT{
+   margin-left: -20px;
+}
+
+.btnToggle{
+    width: 100px;
+
+}
+
+.amount{
+    font-size: 20px;
+}
