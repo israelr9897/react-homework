@@ -1,8 +1,13 @@
 import Cards from "./comps/Cards";
 import Header from "./comps/Header";
 import Footer from "./comps/Footer";
-import Mode from './moods/mainPage'
+import Mode from "./moods/mainPage";
 import Poll from "./miniPoll/Poll";
+import InputBoxToRef, {InputBoxToState} from "./hooks/inputBox";
+import TextBoxMain  from "./hooks/exe2";
+import CounterHistory from "./hooks/exe3";
+import Timers from "./hooks/Timers";
+import CountButton from "./hooks/countButton";
 
 export default function App() {
   return (
@@ -16,8 +21,16 @@ export default function App() {
     //  <div>
     //  <Mode/>
     //    </div>
-     <>
-     <Poll/>
-       </>
+    //  <>
+    //  <Poll/>
+    //    </>
+    <>
+    <InputBoxToRef />
+    <InputBoxToState />
+    <TextBoxMain/>
+    <CounterHistory />
+    <Timers />
+    <CountButton />
+    </>
   );
 }
