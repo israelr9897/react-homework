@@ -8,7 +8,9 @@ import TextBoxMain  from "./hooks/useRef/exe2";
 import CounterHistory from "./hooks/useRef/exe3";
 import Timers from "./hooks/useRef/Timers";
 import CountButton from "./hooks/useRef/countButton";
-import Section1, {Section2} from "./hooks/useEffect/Section1";
+import Section1 from "./hooks/useEffect/Section1";
+import Section2 from "./hooks/useEffect/Section2";
+import FetchData from "./hooks/useEffect/FetchData";
 
 export default function App() {
   return (
@@ -36,6 +38,7 @@ export default function App() {
     <>
     <Section1 />
     <Section2 />
+    <FetchData />
     </>
   );
 }
