@@ -3,11 +3,12 @@ import Header from "./comps/Header";
 import Footer from "./comps/Footer";
 import Mode from "./moods/mainPage";
 import Poll from "./miniPoll/Poll";
-import InputBoxToRef, {InputBoxToState} from "./hooks/inputBox";
-import TextBoxMain  from "./hooks/exe2";
-import CounterHistory from "./hooks/exe3";
-import Timers from "./hooks/Timers";
-import CountButton from "./hooks/countButton";
+import InputBoxToRef, {InputBoxToState} from "./hooks/useRef/inputBox";
+import TextBoxMain  from "./hooks/useRef/exe2";
+import CounterHistory from "./hooks/useRef/exe3";
+import Timers from "./hooks/useRef/Timers";
+import CountButton from "./hooks/useRef/countButton";
+import Section1, {Section2} from "./hooks/useEffect/Section1";
 
 export default function App() {
   return (
@@ -24,13 +25,17 @@ export default function App() {
     //  <>
     //  <Poll/>
     //    </>
+    // <>
+    // <InputBoxToRef />
+    // <InputBoxToState />
+    // <TextBoxMain/>
+    // <CounterHistory />
+    // <Timers />
+    // <CountButton />
+    // </>
     <>
-    <InputBoxToRef />
-    <InputBoxToState />
-    <TextBoxMain/>
-    <CounterHistory />
-    <Timers />
-    <CountButton />
+    <Section1 />
+    <Section2 />
     </>
   );
 }

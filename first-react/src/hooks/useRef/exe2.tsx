@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 
 export default function TextBoxMain() {
-  const [value, setValue] = useState<string>("");
-  const value2 = useRef("0");
+  const [value, setValue] = useState<string>();
+  const value2 = useRef<string>("0");
   return (
     <div>
       <p>Exe 2: </p>
@@ -26,4 +26,3 @@ export function TextBox({ value, showValue }: any) {
     </>
   );
 }
- 
