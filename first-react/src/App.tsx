@@ -11,6 +11,9 @@ import CountButton from "./hooks/useRef/countButton";
 import Section1 from "./hooks/useEffect/Section1";
 import Section2 from "./hooks/useEffect/Section2";
 import FetchData from "./hooks/useEffect/FetchData";
+import Client from "./hooks/useEffect/server/client";
+import Section4 from "./hooks/useEffect/Section4";
+import Section5 from "./hooks/useEffect/Section5";
 
 export default function App() {
   return (
@@ -36,9 +39,12 @@ export default function App() {
     // <CountButton />
     // </>
     <>
-    <Section1 />
+    {/* <Section1 />
     <Section2 />
-    <FetchData />
+    <FetchData /> */}
+    {/* <Client/> */}
+    <Section4 />
+    <Section5/>
     </>
   );
 }
