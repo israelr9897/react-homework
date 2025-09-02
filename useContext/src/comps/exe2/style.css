@@ -1,0 +1,61 @@
+div section{
+    width: 200px;
+    height: 150px;
+    border: 1px black solid;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    /* border: 1px black solid; */
+}
+
+.header{
+    width: 50%;
+    /* border: 1px black solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    padding-left: 37%;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: bisque;
+
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.dark{
+    background-color: rgb(14, 0, 174);
+    color: azure;
+}
+
+.light{
+    background-color: rgb(57, 242, 255);
+    color: black;
+
+}
+
+.high-contrast{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
